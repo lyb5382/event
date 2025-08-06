@@ -1,0 +1,12 @@
+.contect {
+    background-color: darkseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    text-align: end;
+}
+
+.lists {
+    padding: 20px;
+    text-align: start;
+}
