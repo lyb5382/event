@@ -7,7 +7,7 @@ import Skill from './components/Skill'
 function App() {
 
   return (
-    <div>
+    <div>수요일
       <Hero />
       <Contect />
       <Aboutme />
