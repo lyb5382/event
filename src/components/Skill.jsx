@@ -1,7 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import('./css/Skill.css')
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Skill = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      offset: 120,
+      once: false
+    })
+  })
   const skills = ['html', 'node', 'js', 'python', 'react']
   return (
     <section className='skill'>

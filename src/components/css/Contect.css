@@ -6,6 +6,12 @@
     text-align: end;
 }
 
+.contect .t-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
 .lists {
     padding: 20px;
     text-align: start;
